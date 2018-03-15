@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head th:replace="base :: headstuff">
+</head>
+<body>
+<nav th:replace="base :: navbar"></nav>
+<div class="container">
+<div class="jumbotron">
+    <h1>You have reached the secure page</h1>
+    <p><a class="btn btn-primary btn-1g" href="/" role="button">Go to Home</a></p>
+</div>
+</div>
+<nav th:replace="base :: footer"></nav>
+<th:block th:replace="base :: jslinks"></th:block>
+</body>
+</html>
